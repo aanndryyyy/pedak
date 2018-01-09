@@ -1,11 +1,15 @@
 import React, {Component} from 'react';
 
-export default class NotFound extends Component {
+import Section from './layout/Section';
+
+export default class Home extends Component {
 
 	render() {
 		return (
 			<div>
-				<h1>Home</h1>
+				<Section>
+					<h1>Home</h1>
+				</Section>
 			</div>
 		);
 	}
