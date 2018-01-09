@@ -6,6 +6,8 @@ import registerServiceWorker from './lib/registerServiceWorker';
 import Home from './components/Home';
 import NotFound from './components/NotFound';
 
+import './styles/index.css';
+
 ReactDOM.render(
   <Router>
     <Switch>
